@@ -23,7 +23,7 @@ import org.sonar.api.Plugin;
 
 import java.util.Collections;
 
-public final class ChinesePackPlugin implements Plugin {
+public final class TraditionalChinesePackPlugin implements Plugin {
 
   @Override
   public String toString() {

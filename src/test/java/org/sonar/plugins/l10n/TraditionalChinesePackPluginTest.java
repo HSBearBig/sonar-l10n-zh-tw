@@ -30,7 +30,7 @@ import org.sonar.api.SonarRuntime;
 import org.sonar.api.utils.Version;
 import org.sonar.test.i18n.I18nMatchers;
 
-public class ChinesePackPluginTest {
+public class TraditionalChinesePackPluginTest {
 
   // https://jira.sonarsource.com/browse/SONAR-7226
   @Test
@@ -42,15 +42,15 @@ public class ChinesePackPluginTest {
 
   // coverage
   @Test
-  public void testChinesePackPlugin() {
-    ChinesePackPlugin chinesePackPlugin = new ChinesePackPlugin();
+  public void testTraditionalChinesePackPlugin() {
+    TraditionalChinesePackPlugin traditionalChinesePackPlugin = new TraditionalChinesePackPlugin();
 
-    String pluginName = chinesePackPlugin.toString();
-    Assert.assertEquals("ChinesePackPlugin", pluginName);
+    String pluginName = traditionalChinesePackPlugin.toString();
+    Assert.assertEquals("TraditionalChinesePackPlugin", pluginName);
 
     SonarRuntime runtime = SonarRuntimeImpl.forSonarQube(Version.create(8, 5),
       SonarQubeSide.SCANNER, SonarEdition.COMMUNITY);
     Plugin.Context context = new PluginContextImpl.Builder().setSonarRuntime(runtime).build();
-    chinesePackPlugin.define(context);
+    traditionalChinesePackPlugin.define(context);
   }
 }

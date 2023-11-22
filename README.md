@@ -1,17 +1,17 @@
-The Chinese translation pack for SonarQube
+The Traditional Chinese translation pack for SonarQube
 =======
 
-Author: Xu Huisheng <xyz20003@gmail.com>
+Origin Author: Xu Huisheng <xyz20003@gmail.com>  
 
-Latest version: (https://github.com/SonarQubeCommunity/sonar-l10n-zh/releases/latest)
+Author: John Chang <john6446500@gmail.com>  
 
-compatibility Matrix:
+Latest version: (https://github.com/HSBearBig/sonar-l10n-zh-tw/releases/latest)
 
 ---
 
-这是SonarQube的汉化包
+這是 SonarQube 的繁體中文翻譯
 
-兼容列表如下：
+相容列表如下：
 
 **SonarQube** |**10.0**|**10.1**|**10.2**|**10.3**|        |        |        |        |        |        |
 --------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
